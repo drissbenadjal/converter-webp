@@ -1,0 +1,17 @@
+{
+  "name": "converter-webp",
+  "version": "1.0.0",
+  "description": "Convert PNG and JPG images in a folder to webp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "convert": "node index.js"
+  },
+  "keywords": [],
+  "author": "Driss Benadjal",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "sharp": "^0.32.1"
+  }
+}
